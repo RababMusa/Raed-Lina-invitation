@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1,p{
+    margin-bottom: 0;
+}
+html{
+    direction: ltr;
+}
+.main{
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.cover{
+    position: relative;
+    height: 651px;
+    max-width: 520px;
+}
+.coverImg{
+    min-height: 700px;
+    width: 100%;    
+}
+.absoluteCover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+}
+.coverContent{
+    padding-top: 50px;
+}
+.coverTitle{
+    font-size: 30px;
+    text-align: center;
+    color: #eee;
+    margin-bottom: 20px;
+}
+.titleNames{
+    font-size: 55px;
+    color: #e0d9d9dc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titleWelcome{
+    color: #e0d9d9dc;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 20px;
+}
+.coverDesc{
+    color: #e0d9d9dc;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    padding: 0 30px;
+}
+.btnsGroup{
+    text-align: center;
+}
+.btn{
+    width:45%;
+    border: none;
+    color: #2F0E24;
+    padding:10px 0;
+    border-radius: 4px;
+    box-shadow: 3px 4px 7px #2e2e2e;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.btnAccept{
+    background-color: #9DC8A3;
+    margin-right: 8px;
+}
+.btnReject{
+    background-color: #EFD1BE;
+    margin-right: 8px;
+}
+.viewInvitation{
+    display: none;
+}
+.btnView{
+    color: #2F0E24;
+    background-color: #eee;
+    text-align: center;
+}
+.msgReject{
+    font-size: 14px;
+    font-family: 'Ysabeau Office', sans-serif;
+    text-align: center;
+    display: none;
+}
+.contacts{
+    color: #e0d9d9dc;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 13px;
+    text-align: center;
+}
+.contacts p{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.to,.toName{
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #eee;
+    text-align: center;
+}
+.to{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.toName{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.visitorsNum{
+    text-align: center;
+    color: #fff;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.icon{
+    color: #EFD1BE;
+    margin-right: 5px;
+}
+.fa-clock{
+    width: 30px;
+    font-size: 20px;
+}
+.fa-location-dot{
+    font-size: 22px;
+    width: 30px;
+    text-align: left;
+}
+.descTime{
+    margin-bottom: 40px;
+}
+.Details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apologised{
+    background-color: #d33;
+    color: #eee;
+}
